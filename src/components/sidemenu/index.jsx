@@ -1,5 +1,7 @@
 import { SidebarData } from './sidebar-data';
 import './sidemenu.css';
+import { IconContext } from 'react-icons';
+import { Link } from 'react-router-dom';
 
 export default function Sidemenu() {
   return (
@@ -8,6 +10,7 @@ export default function Sidemenu() {
         <div className="navbar">
           <Link to="#" className="menu-bars"></Link>
         </div>
+
         <nav className={'nav-menu'}>
           <ul className="nav-menu-items">
             {SidebarData.map((item, index) => {
