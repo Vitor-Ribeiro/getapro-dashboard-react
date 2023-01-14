@@ -1,12 +1,9 @@
-import { Link } from 'react-router-dom';
-import { SidebarData } from './SidebarData';
-import './Navbar.css';
-import { IconContext } from 'react-icons';
+import { SidebarData } from './sidebar-data';
+import './sidemenu.css';
 
-function Navbar() {
+export default function Sidemenu() {
   return (
     <>
-      <image src=""></image>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className="navbar">
           <Link to="#" className="menu-bars"></Link>
@@ -29,5 +26,3 @@ function Navbar() {
     </>
   );
 }
-
-export default Navbar;

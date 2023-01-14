@@ -30,5 +30,11 @@ export const SidebarData = [
     cName: 'nav-text'
   }
 ];
-
-export default SidebarData;
+export const SidebarDataCustom = [
+  {
+    title: 'Financeiro',
+    path: '/Home',
+    icon: <AiIcons.AiFillHome />,
+    cName: 'nav-text'
+  }
+];
