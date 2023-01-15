@@ -8,33 +8,28 @@ export const SidebarData = [
   {
     title: 'Página Inicial',
     path: '/',
-    icon: <AiIcons.AiFillHome />,
-    cName: 'nav-text'
+    icon: <AiIcons.AiFillHome />
   },
   {
     title: 'Alunos',
     path: '/Alunos',
-    icon: <IoIcons.IoIosPaper />,
-    cName: 'nav-text'
+    icon: <IoIcons.IoIosPaper />
   },
   {
     title: 'Aulas',
     path: '/Aulas',
-    icon: <BsIcons.BsFillJournalBookmarkFill />,
-    cName: 'nav-text'
+    icon: <BsIcons.BsFillJournalBookmarkFill />
   },
   {
     title: 'Professores',
     path: '/Professores',
-    icon: <FaIcons.FaChalkboardTeacher />,
-    cName: 'nav-text'
+    icon: <FaIcons.FaChalkboardTeacher />
   }
 ];
 export const SidebarDataCustom = [
   {
     title: 'Financeiro',
     path: '/Home',
-    icon: <AiIcons.AiFillHome />,
-    cName: 'nav-text'
+    icon: <AiIcons.AiFillHome />
   }
 ];
